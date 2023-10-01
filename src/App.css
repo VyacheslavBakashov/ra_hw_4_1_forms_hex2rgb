@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.converter-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.converter-color__form-input {
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.converter-color__form-input:focus-visible {
+  outline-style: solid;
+}
+
+.converter-color__form-rgb {
+  padding: 15px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  opacity: 0.5;
+}
